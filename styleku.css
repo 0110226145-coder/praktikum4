@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 0;
+background-color: beige;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #222;
+}
+
+/* BAGIAN ATAS */
+
+.header {
+background-color: burlywood;
+padding: 12px 20px;
+text-align: center;
+}
+
+.header h1 {
+color: blue;
+font-size: 18px;
+margin: 0 0 12px;
+}
+
+.kutipan {
+background-color: yellow;
+border: 1px solid orange;
+padding: 5px;
+font-size: 9px;
+font-weight: bold;
+}
+
+.kutipan span {
+display: block;
+}
+
+nav {
+text-align: center;
+padding: 12px;
+}
+
+nav a {
+color: purple;
+margin: 0 4px;
+font-size: 10px;
+}
+
+main {
+width: 94%;
+max-width: 1100px;
+margin: auto;
+}
+
+.gambar-utama {
+display: flex;
+justify-content: center;
+gap: 5px;
+}
+
+.gambar-utama img {
+width: 22%;
+height: 150px;
+object-fit: cover;
+}
+
+p {
+text-align: justify;
+line-height: 1.5;
+}
+
+.awal::first-letter {
+color: blue;
+font-size: 25px;
+}
+
+h2 {
+font-size: 13px;
+margin-top: 15px;
+}
+
+h3 {
+font-size: 11px;
+margin-top: 12px;
+}
+
+ul {
+padding-left: 20px;
+}
+
+/* BAGIAN BAWAH KREATIF */
+
+.galeri {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 25px;
+flex-wrap: wrap;
+}
+
+.galeri img {
+width: 23%;
+height: 160px;
+object-fit: cover;
+border: 4px solid white;
+border-radius: 5px;
+box-shadow: 0 2px 5px #aaa;
+}
+
+.promosi {
+text-align: center;
+margin: 25px auto;
+padding: 15px;
+}
+
+.promosi h2 {
+font-size: 15px;
+}
+
+.promosi h3 {
+font-size: 13px;
+margin-top: 5px;
+}
+
+.promosi p {
+text-align: center;
+margin: 5px;
+}
+
+.promosi del {
+color: red;
+}
+
+.harga {
+color: darkgreen;
+font-weight: bold;
+}
+
+.tombol {
+margin-top: 12px;
+}
+
+.tombol a {
+display: inline-block;
+padding: 7px 12px;
+margin: 3px;
+background-color: #333;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.tombol a:hover {
+background-color: darkgreen;
+}
+
+footer {
+background-color: darkgreen;
+color: white;
+text-align: center;
+padding: 12px;
+margin-top: 20px;
+}
+
+/* RESPONSIVE UNTUK HP */
+
+@media (max-width: 600px) {
+
+```
+.gambar-utama img {
+    width: 40%;
+    height: 110px;
+}
+
+.galeri {
+    gap: 8px;
+}
+
+.galeri img {
+    width: 46%;
+    height: 130px;
+}
+
+main {
+    width: 94%;
+}
+```
+
+}
